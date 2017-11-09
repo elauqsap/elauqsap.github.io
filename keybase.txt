@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/elauqsap
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://blog.elauqsap.com
+  * I am elauqsap (https://keybase.io/elauqsap) on keybase.
+  * I have a public key ASCCDSzHpRGFmfzOQCQ7fJr_VRbqBVutt6_uRyqfbG91mAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120fd4bbf856250b28250ac0f7c1e284d0227fc5bfc68a3b2181d10d25e713452630a",
+      "host": "keybase.io",
+      "kid": "0120820d2cc7a5118599fcce40243b7c9aff5516ea055badb7afee472a9f6c6f75980a",
+      "uid": "cf1550e9ca4f9cb6a26042061baab900",
+      "username": "elauqsap"
+    },
+    "merkle_root": {
+      "ctime": 1510199156,
+      "hash": "f854c6a455e4221996031a7e4e8c438e95edde7ffe6e299c19f890aa5065397b1f272b76bb65da4af2bb797514c8dd3b430d51419609d4170d9b019f34a580c4",
+      "hash_meta": "f54d2303a783471b55a04de60d455b1e4a411d3db468eb1e07aabe335611e407",
+      "seqno": 1683487
+    },
+    "service": {
+      "hostname": "blog.elauqsap.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.34"
+  },
+  "ctime": 1510199201,
+  "expire_in": 504576000,
+  "prev": "d9ca53151378ff370c1c99ca40359ecbafcf447753624bddde6f3a65d25668b8",
+  "seqno": 35,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEggg0sx6URhZn8zkAkO3ya/1UW6gVbrbev7kcqn2xvdZgKp3BheWxvYWTFA0l7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZmQ0YmJmODU2MjUwYjI4MjUwYWMwZjdjMWUyODRkMDIyN2ZjNWJmYzY4YTNiMjE4MWQxMGQyNWU3MTM0NTI2MzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODIwZDJjYzdhNTExODU5OWZjY2U0MDI0M2I3YzlhZmY1NTE2ZWEwNTViYWRiN2FmZWU0NzJhOWY2YzZmNzU5ODBhIiwidWlkIjoiY2YxNTUwZTljYTRmOWNiNmEyNjA0MjA2MWJhYWI5MDAiLCJ1c2VybmFtZSI6ImVsYXVxc2FwIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTEwMTk5MTU2LCJoYXNoIjoiZjg1NGM2YTQ1NWU0MjIxOTk2MDMxYTdlNGU4YzQzOGU5NWVkZGU3ZmZlNmUyOTljMTlmODkwYWE1MDY1Mzk3YjFmMjcyYjc2YmI2NWRhNGFmMmJiNzk3NTE0YzhkZDNiNDMwZDUxNDE5NjA5ZDQxNzBkOWIwMTlmMzRhNTgwYzQiLCJoYXNoX21ldGEiOiJmNTRkMjMwM2E3ODM0NzFiNTVhMDRkZTYwZDQ1NWIxZTRhNDExZDNkYjQ2OGViMWUwN2FhYmUzMzU2MTFlNDA3Iiwic2Vxbm8iOjE2ODM0ODd9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYmxvZy5lbGF1cXNhcC5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjM0In0sImN0aW1lIjoxNTEwMTk5MjAxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImQ5Y2E1MzE1MTM3OGZmMzcwYzFjOTljYTQwMzU5ZWNiYWZjZjQ0Nzc1MzYyNGJkZGRlNmYzYTY1ZDI1NjY4YjgiLCJzZXFubyI6MzUsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAdjWZnTF5pMp2pcGKtMcw3brXYBh5gC+w3qCbgyyuCB3DcI0+lRB+Pj7loGLuTJMS53HZRTqG4P7iBqtB9ns/B6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILfj5cpNUem2mq496tECIxa8S6rL+RQMA1v2gqgBV4gBo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/elauqsap
+
+==================================================================
