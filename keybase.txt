@@ -21,6 +21,16 @@ To do so, I am signing this object:
       "uid": "cf1550e9ca4f9cb6a26042061baab900",
       "username": "elauqsap"
     },
+    "merkle_root": {
+      "ctime": 1512322356,
+      "hash_meta": "bdac4ee339d7df452c374db17861684fb74fb2a90f7035f1fa43cb32e589f161",
+      "seqno": 1774443
+    },
+    "revoke": {
+      "sig_ids": [
+        "9d5fc5a79ba683f31f65ed24362449d5bb41c3c86a28d4700b5f4edac20cf5ab0f"
+      ]
+    },
     "service": {
       "hostname": "blog.elauqsap.com",
       "protocol": "http:"
@@ -28,10 +38,10 @@ To do so, I am signing this object:
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1512321958,
+  "ctime": 1512322437,
   "expire_in": 157680000,
-  "prev": "a198dcbc0a96d5e5c7334f2aa28cfbbebfc424c377a03863eb5cde83033c4ffc",
-  "seqno": 53,
+  "prev": "d8b2af4ebfb1929ec65727cb225f44fac62e43ad657402cfa1b3849b59952bd5",
+  "seqno": 54,
   "tag": "signature"
 }
 
@@ -40,29 +50,32 @@ which yields the signature:
 -----BEGIN PGP MESSAGE-----
 Version: GnuPG v2
 
-owGtkm1MHEUYx4+XWjgOpVpfmoChC1RLybmvs3sX0YSoJFIw0IYClbvM7s4e24Pb
-426hEHqmBKmAfUFA0AhNoaZQW4ukvdIWLUXBEqnUQFMheFIKTQVpSdCEgljdI+03
-PzpfJvPM7/+f//NkasODdCEBUllMVtbhsyhgaJbX5cRSY2UYr4ilmLkMs6O1DeWL
-yK1a7bKImTGcwAkWSiIFJAoSIicBUiIZnoSMAEhcYCleIACiASRZjuZpFrFIMLGs
-AGiWJkhAAo6COMQSMEl22JDL6ZIdqmZL4bR2SUGAEwKkOYplWFYUeQIAlicphmM4
-DvEUYDRhnuL2K7RwPHQjo6xoNe1gXYv3H/z/nLtozU6QCIbBkUkLK5kEXpMBrQMc
-EDyEvAnH/aAbuRywAGk0yodFhW7oxDwJmFYtlgXkH6y/k0cEn6/YjI8xo6AUaAZO
-l6IqgpKvXeepqtPsV6ulTj++F/HWR0ZWXnaI2iw1QTFyuWXFgZkJjRRU2e9MMARJ
-kYSJ4RIwVOKUXcgq+wmGBRyuLf8zqFizhIQplxMFXsChCYgMYrSZULREQkhygsTz
-iJcEmqQFimUhTnGAQjwjiIijcIoSaEkSMH9vhQ4FMzOUFhTaNFO3bHNAtciFMI++
-OjAyWBcQontiXaD/m+n0oRGP/95Kb4SuszHCWhfPFhV+9fNS1sovGW/OHGpSnGnb
-cDXxIJg7cMWr1m+8315R9furScl3nbXe4bbNH5erlltgx9BiovD2F6EhCfz7n7Su
-H6t8KsoexjS8Ftqbnp3nGzVc27nj5oRr3vWwy264FrOUOW4JwmqSmlNutCxG9pxd
-bEu9OpqEHT8zcukjZZ3cJ/tiQ9I2cE3g0+eKTznbWD2367R8MZ3NTBxvfP4u3tEY
-Mp3weSsfkfvS+SfnvovuXWnfVSqOJnb3H83uWp1Mnp339OWea71fMr/bcb5+X9O9
-U8eGAxtOLj0U57xV7xmvbrmekuYz735wuaXm6TDbYE5t5+rGEwF7tpZc8MLkB+Fx
-gwXK/oWjL3z7+on2wy8Ontxabr0QPHnHfu4Hbqg+aaZ6+01PhXFDh7PuyCEmetq3
-83BKx0hVaEH6Qqo3Tt/+963gxum0nyCdfHpidHvzW7bwDOlYU+imveOVm0f6X1kY
-yIr/E/ed6Sy/PnB88AOjwaAnovZta/u1tfu3ruZv4kB1S33F7NTLN/4yTC2XWN4I
-/zCnODXoyG1XxR97Mr9svxOnlLdOMTOfeZ89MDn59TOWsS2zMT2iZNh0cORdw0TP
-OzX4vSvdfavD/2QPNtSxcf0R8z4mfSpy3uMASpT9kmfRctvwY5g+THdRrMzYP7dc
-Fh1raV6+HL+UtD72+4F/AQ==
-=pnfL
+owGtU31QFVUcfSoK6pCWNpFJoyuNmkS7e+/du0tZzTCgOaYNaKGpz3t37/LWB28f
+7z0eAT3RChVDDB0qxQrSlEZ0/Ah0/AhySEdDEEdNTUEdpRrBTMcPjLT7GJ2mmf5s
+Z3Z27v2d3/mdc/bej6P7OaL6mAVj0tNLd7I+P/5GHbPj0NYCgdpGnpBYILhZ74dl
+GswfcLotQ0gUREmUMDENoJiASIZqKrIpIyoTpCuyqGNAdUlhUCEyViGFmGGmaxjr
+CsRQkhVZUQERiRAvmJYng/m8PssT4LRAhLwIiCJKOoEqwAhjw6CSomAqA6QiVWUU
+KIg3umx/uIOLo8TPEiyb7/GFs1fef+D/Z905vXS6KSEkMo2LNTWd8jaFOxAViRJC
+NVEMA/3M5yFZjKNZJsnJ9hOvEIoXspjPncmcPtsOhMPVA1YYIiFJBjJXrnCDxO9y
+ZrEA4Z3UIDpkDADNwIYJkawDDHkuWFUkRYUmxfyViSaaWATIlEwCgU6BzJCqmZIi
+cR1+lu2x+QSMIYSAK/CxoO1m4eF+K4PH5hcS3xE0A5kNBToiWKOEmzWBZCqIGTIE
+igwhL1MKJR3oKveqGhCLIkUmZFwfj89EhIqmMDcUHucLWnovffhPPUyAZtoZCY9i
+SNDtLC7M67MDtm5n8rIrEPAmhtMJ5HnD8FxGnQ+JnNTyGPys8IYg8/kt28O9cOS/
+g4MAxwvsXa/lY04rjEBYUUX+hMewIKc0VJ4TF0xNKmmyxnQFYRnrVJa5DWgSfgwY
+BMTg21CUdZNIFKhQo0jTkEwN9E+SCHKdJINz8vw8JJDjY0JoUHHfkRGOPlGOAf37
+hm+RY9DAoY+uFvhzqKNkf/nj0XM2pbyszi8FCSufbGt9ca3n0NUfctwzyPbL93fW
+d4eGxSzJrLizFt1Le2HW0a/O7ko0ql1nRLfrWpuaPGB654mk7+reLz/16vzSS9Hr
+O6Kqm2NmDLO3b0lPrnnl5s497fumps68GPNFeXvfSXtvrGh+eyn7unxRZMv47Miz
+bXlzLp7rck5PrZk2be+mVVrVqkWFSuPe7s9O7pbS8pZbqcm/ti5NqVwyU8if33Ix
+dP/Npg+3N26c2DbqfEvt6RFCflV10+h5xec9t0cIQccHv/QbnX8urXvy1sKSCVMC
+NRHOJc/eXLvuwo597/1xtCqlLveQ2117vbUwZCrVs7q2HBq5OPTTU9UFyV0vdTQt
+SBqz5vVb21puNQ+ppg1pK72jcp9/kDy5cnx+zK4F37iu1/cQe/8bs+5dibr2xPGO
+KYfH3U9ZGDH2aOdb0dPqbg/v0ftfORg7sCx+dcWic5Eez+CIDmF344l5xZt9sVP+
+iq0vbWdJB05OTQ/KAzwVsVvuVjw2YV37xEmHb1hl+wOFYz/vDI7ULw1ePGT43N9f
+mxCjXU1eN2P1hrhP02ovFDXPHn2l/G6/U7Ubnivu2PygcsXxb5/edrrV/nljM8s+
+1tW0oPJ7cqxkdk/MwUGXXWqXOmxh3OYjRQkNQ5Yvm/zljjHLiouO1J2P7/7kzsra
+of2f6WwfvwZ9dGb9njsHeoLjSueVjc1w/A0=
+=0x+C
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
